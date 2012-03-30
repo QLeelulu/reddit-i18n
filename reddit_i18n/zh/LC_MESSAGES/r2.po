@@ -57,7 +57,7 @@ msgstr "已储存内容"
 
 #: r2/controllers/api.py:630
 msgid "all other sessions have been logged out"
-msgstr ""
+msgstr "所有其他会话都已登出"
 
 #: r2/controllers/api.py:673
 msgid "you should be getting a verification email shortly."
@@ -108,11 +108,11 @@ msgstr "太多图片啦（你只能上传%d）"
 
 #: r2/controllers/api.py:1324
 msgid "Invalid image or general image error"
-msgstr ""
+msgstr "图片格式错误或者生成图片出错"
 
 #: r2/controllers/api.py:1870
 msgid "claimed! now go to someone's userpage and give them a present!"
-msgstr ""
+msgstr "已请求！现在去别人的用户页，并给他们一份礼物!"
 
 #: r2/controllers/api.py:1875
 msgid "claimed!"
@@ -124,7 +124,7 @@ msgstr "你很快会收到一封邮件"
 
 #: r2/controllers/api.py:1893
 msgid "try again tomorrow"
-msgstr ""
+msgstr "请明天再试"
 
 #: r2/controllers/api.py:2122 r2/controllers/api.py:2309
 msgid "invalid css class"
@@ -255,19 +255,19 @@ msgstr "已经有人用了这个用户名啦"
 
 #: r2/controllers/errors.py:34
 msgid "that username is taken by a deleted account"
-msgstr ""
+msgstr "这用户名已由一被删除的帐号使用"
 
 #: r2/controllers/errors.py:35
 msgid "you can't send to a user that you have blocked"
-msgstr ""
+msgstr "你不能给一个已经被你拉黑的用户发送"
 
 #: r2/controllers/errors.py:36
 msgid "id not specified"
-msgstr ""
+msgstr "未指定ID"
 
 #: r2/controllers/errors.py:37
 msgid "you provided too many ids"
-msgstr ""
+msgstr "你指定了太多ID"
 
 #: r2/controllers/errors.py:38
 msgid "you can't do that"
@@ -363,7 +363,7 @@ msgstr "你不能在这里发言"
 
 #: r2/controllers/errors.py:61
 msgid "you must specify a subreddit"
-msgstr ""
+msgstr "你必须制定一个子Reddit"
 
 #: r2/controllers/errors.py:62
 msgid "that name isn't going to work"
@@ -372,15 +372,15 @@ msgstr "名字无效"
 #: r2/controllers/errors.py:63
 #, python-format
 msgid "you are doing that too much. try again in %(time)s."
-msgstr ""
+msgstr "你操作得太频繁了。请在%(time)秒后再试。"
 
 #: r2/controllers/errors.py:64 r2/lib/strings.py:144
 msgid "You've submitted too many links recently. Please try again in an hour."
-msgstr ""
+msgstr "你短时间内提交太多链接了。请在一个小时后再试。"
 
 #: r2/controllers/errors.py:65
 msgid "your session has expired"
-msgstr ""
+msgstr "您的会话已经过期"
 
 #: r2/controllers/errors.py:66
 msgid "you must accept the terms first"
@@ -634,7 +634,7 @@ msgstr "得分最高的链接"
 
 #: r2/controllers/listingcontroller.py:450
 msgid "most controversial links"
-msgstr ""
+msgstr "最多讨论的链接"
 
 #: r2/controllers/listingcontroller.py:457
 msgid "you're really bored now, eh?"
@@ -765,7 +765,7 @@ msgstr ""
 #: r2/controllers/validator/validator.py:1401
 #, python-format
 msgid "one of (%s)"
-msgstr ""
+msgstr "(%s)之一"
 
 #: r2/controllers/validator/validator.py:1591
 msgid "destination url (must be same-domain)"
@@ -821,7 +821,7 @@ msgstr ""
 
 #: r2/lib/jsontemplates.py:318 r2/templates/usertext.html:55
 msgid "[removed]"
-msgstr ""
+msgstr "[已删除]"
 
 #: r2/lib/menus.py:46
 msgid "what's hot"
@@ -857,7 +857,7 @@ msgstr "最新"
 
 #: r2/lib/menus.py:58
 msgid "old"
-msgstr ""
+msgstr "旧的"
 
 #: r2/lib/menus.py:59
 msgid "ups"
@@ -869,7 +869,7 @@ msgstr "不喜欢"
 
 #: r2/lib/menus.py:61 r2/templates/widgetdemopanel.html:173
 msgid "top"
-msgstr "顶端"
+msgstr "高分"
 
 #: r2/lib/menus.py:62
 msgid "more"
@@ -881,11 +881,11 @@ msgstr ""
 
 #: r2/lib/menus.py:64 r2/templates/buttontypes.html:191
 msgid "controversial"
-msgstr ""
+msgstr "讨论最多"
 
 #: r2/lib/menus.py:65
 msgid "best"
-msgstr ""
+msgstr "最好"
 
 #: r2/lib/menus.py:66
 msgid "saved {toolbar}"
@@ -893,7 +893,7 @@ msgstr "已儲存"
 
 #: r2/lib/menus.py:68
 msgid "rising"
-msgstr ""
+msgstr "上升"
 
 #: r2/lib/menus.py:69
 msgid "admin"
@@ -921,12 +921,12 @@ msgstr "几年"
 
 #: r2/lib/menus.py:77
 msgid "all time"
-msgstr ""
+msgstr "所有时间"
 
 #: r2/lib/menus.py:80 r2/templates/printablebuttons.html:44
 #: r2/templates/printablebuttons.html:128
 msgid "spam"
-msgstr ""
+msgstr "垃圾信息"
 
 #: r2/lib/menus.py:81
 msgid "autobanned"
@@ -935,7 +935,7 @@ msgstr ""
 #: r2/lib/menus.py:84 r2/lib/pages/pages.py:754
 #: r2/templates/passwordverificationform.html:24
 msgid "turn admin on"
-msgstr ""
+msgstr "启用管理"
 
 #: r2/lib/menus.py:85
 msgid "turn admin off"
@@ -943,7 +943,7 @@ msgstr ""
 
 #: r2/lib/menus.py:86 r2/lib/pages/pages.py:584 r2/lib/pages/pages.py:599
 msgid "preferences"
-msgstr "偏好"
+msgstr "偏好设置"
 
 #: r2/lib/menus.py:89
 msgid "blog"
@@ -1046,7 +1046,7 @@ msgstr "关于"
 
 #: r2/lib/menus.py:126
 msgid "edit subscriptions"
-msgstr ""
+msgstr "编辑订阅内容"
 
 #: r2/lib/menus.py:127 r2/lib/pages/pages.py:1089
 #: r2/templates/createsubreddit.html:39
@@ -1574,11 +1574,11 @@ msgstr ""
 
 #: r2/lib/strings.py:105
 msgid "you have not subscribed to any reddits."
-msgstr ""
+msgstr "你还没有订阅任何Reddits"
 
 #: r2/lib/strings.py:106
 msgid "below are the reddits you have subscribed to"
-msgstr ""
+msgstr "下面是你已经订阅的Reddit"
 
 #: r2/lib/strings.py:107
 msgid "below are the reddits that you are an approved submitter on."
@@ -1592,7 +1592,7 @@ msgstr ""
 msgid ""
 "click the `subscribe` or `unsubscribe` buttons to choose which reddits "
 "appear on your front page."
-msgstr ""
+msgstr "点击`订阅`或者`取消订阅`按钮来选择哪些Reddit会呈现在你的首页"
 
 #: r2/lib/strings.py:113
 #, python-format
@@ -1892,7 +1892,7 @@ msgstr[0] ""
 #: r2/lib/strings.py:241
 msgid "subscriber"
 msgid_plural "subscribers"
-msgstr[0] "訂閱數/訂閱數"
+msgstr[0] "訂閱數"
 
 #: r2/lib/strings.py:242 r2/templates/subreddit.html:82
 #: r2/templates/subreddit.html:83
@@ -2027,7 +2027,7 @@ msgstr ""
 
 #: r2/lib/pages/pages.py:723 r2/templates/redditheader.html:72
 msgid "login or register"
-msgstr ""
+msgstr "登录或注册"
 
 #: r2/lib/pages/pages.py:781
 msgid "request for permission"
@@ -2366,7 +2366,7 @@ msgstr ""
 
 #: r2/models/modaction.py:33
 msgid "remove post"
-msgstr ""
+msgstr "删除帖子"
 
 #: r2/models/modaction.py:34
 msgid "approve post"
@@ -2374,7 +2374,7 @@ msgstr ""
 
 #: r2/models/modaction.py:35
 msgid "remove comment"
-msgstr ""
+msgstr "删除评论"
 
 #: r2/models/modaction.py:36
 msgid "approve comment"
@@ -2418,7 +2418,7 @@ msgstr ""
 #: r2/templates/printablebuttons.html:145 r2/templates/trophycase.html:47
 #: r2/templates/trophycase.html:67
 msgid "removed"
-msgstr ""
+msgstr "已删除"
 
 #: r2/models/modaction.py:49 r2/models/modaction.py:51
 #: r2/templates/printablebuttons.html:54
@@ -2473,11 +2473,11 @@ msgstr ""
 
 #: r2/models/modaction.py:66
 msgid "removed not spam"
-msgstr ""
+msgstr "已删除的非垃圾信息"
 
 #: r2/models/modaction.py:67
 msgid "removed spam"
-msgstr ""
+msgstr "已删除的垃圾信息"
 
 #: r2/models/modaction.py:69
 msgid "removed self"
@@ -2592,7 +2592,7 @@ msgstr ""
 #: r2/templates/printablebuttons.html:129 r2/templates/trophycase.html:47
 #: r2/templates/trophycase.html:67 r2/templates/usertableitem.html:55
 msgid "remove"
-msgstr ""
+msgstr "删除"
 
 #: r2/models/modaction.py:239 r2/models/modaction.py:253
 #: r2/templates/comment.html:58
@@ -2785,19 +2785,19 @@ msgstr ""
 
 #: r2/templates/buttontypes.html:189
 msgid "quite controversial"
-msgstr ""
+msgstr "最受争议"
 
 #: r2/templates/buttontypes.html:193
 msgid "uncontroversial"
-msgstr ""
+msgstr "无争议的"
 
 #: r2/templates/buttontypes.html:195
 msgid "quite uncontroversial"
-msgstr ""
+msgstr "最无争议"
 
 #: r2/templates/buttontypes.html:212
 msgid "Vote on this article"
-msgstr ""
+msgstr "给本文投票"
 
 #: r2/templates/buttontypes.html:217
 #, python-format
@@ -2811,19 +2811,19 @@ msgstr ""
 
 #: r2/templates/captcha.html:49
 msgid "(sorry)"
-msgstr ""
+msgstr "(抱歉)"
 
 #: r2/templates/captcha.html:49
 msgid "are you human?"
-msgstr ""
+msgstr "你是人类吗？"
 
 #: r2/templates/captcha.html:75
 msgid "human?"
-msgstr ""
+msgstr "人类？"
 
 #: r2/templates/clickgadget.html:30
 msgid "clear"
-msgstr ""
+msgstr "清空"
 
 #: r2/templates/comment.html:61
 msgid "in"
@@ -2836,7 +2836,7 @@ msgstr ""
 #: r2/templates/comment.html:98 r2/templates/comment.htmllite:46
 #: r2/templates/comment.xml:31 r2/templates/comment.xml:32
 msgid "[deleted]"
-msgstr ""
+msgstr "[已删除]"
 
 #: r2/templates/comment.html:107 r2/templates/comment.htmllite:46
 #: r2/templates/commentvisitsbox.html:38 r2/templates/useriphistory.html:51
@@ -2850,11 +2850,11 @@ msgstr[0] ""
 
 #: r2/templates/commentspanel.html:38
 msgid "This sidebar will automatically appear when there are comments."
-msgstr ""
+msgstr "有评论时此栏会自动出现。"
 
 #: r2/templates/commentspanel.html:40
 msgid "This sidebar will not be shown automatically."
-msgstr ""
+msgstr "此栏不会自动出现."
 
 #: r2/templates/commentvisitsbox.html:25
 msgid ""
@@ -2888,11 +2888,11 @@ msgstr ""
 
 #: r2/templates/createsubreddit.html:104
 msgid "public"
-msgstr ""
+msgstr "发布"
 
 #: r2/templates/createsubreddit.html:105
 msgid "anyone can view and submit"
-msgstr ""
+msgstr "任何人都可以查看和提交"
 
 #: r2/templates/createsubreddit.html:107
 msgid "restricted"
@@ -2904,7 +2904,7 @@ msgstr ""
 
 #: r2/templates/createsubreddit.html:110 r2/templates/subreddit.html:94
 msgid "private"
-msgstr ""
+msgstr "私密的"
 
 #: r2/templates/createsubreddit.html:111
 msgid "only approved members can view and submit"
@@ -2912,7 +2912,7 @@ msgstr ""
 
 #: r2/templates/createsubreddit.html:116
 msgid "archived"
-msgstr ""
+msgstr "归档的"
 
 #: r2/templates/createsubreddit.html:117
 msgid "anyone can view, but submissions are no longer accepted"
@@ -2920,19 +2920,19 @@ msgstr ""
 
 #: r2/templates/createsubreddit.html:124 r2/templates/prefoptions.html:243
 msgid "content options"
-msgstr ""
+msgstr "内容选项"
 
 #: r2/templates/createsubreddit.html:127
 msgid "any"
-msgstr ""
+msgstr "任何"
 
 #: r2/templates/createsubreddit.html:128
 msgid "any link type is allowed"
-msgstr ""
+msgstr "允许任何链接类型"
 
 #: r2/templates/createsubreddit.html:130
 msgid "links only"
-msgstr ""
+msgstr "仅链接"
 
 #: r2/templates/createsubreddit.html:131
 msgid "only links to external sites are allowed"
@@ -2940,7 +2940,7 @@ msgstr ""
 
 #: r2/templates/createsubreddit.html:133
 msgid "text posts only"
-msgstr ""
+msgstr "仅文本帖子"
 
 #: r2/templates/createsubreddit.html:134
 msgid "only text/self posts are allowed"
@@ -2948,11 +2948,11 @@ msgstr ""
 
 #: r2/templates/createsubreddit.html:140
 msgid "other options"
-msgstr ""
+msgstr "其他选项"
 
 #: r2/templates/createsubreddit.html:147
 msgid "viewers must be over eighteen years old"
-msgstr ""
+msgstr "查看者必须18岁以上"
 
 #: r2/templates/createsubreddit.html:155
 msgid "allow this reddit to be shown in the default set"
@@ -2972,7 +2972,7 @@ msgstr ""
 
 #: r2/templates/createsubreddit.html:196 r2/templates/usertext.html:72
 msgid "hide help"
-msgstr ""
+msgstr "隐藏帮助"
 
 #: r2/templates/createsubreddit.html:200
 msgid ""
@@ -2983,11 +2983,11 @@ msgstr ""
 
 #: r2/templates/createsubreddit.html:207 r2/templates/promotelinkform.html:297
 msgid "look and feel"
-msgstr ""
+msgstr "外观和感觉"
 
 #: r2/templates/createsubreddit.html:210
 msgid "edit the stylesheet"
-msgstr ""
+msgstr "编辑样式表"
 
 #: r2/templates/createsubreddit.html:214
 msgid "leaves this page"
@@ -3007,7 +3007,7 @@ msgstr ""
 
 #: r2/templates/createsubreddit.html:272
 msgid "enter link url here"
-msgstr ""
+msgstr "在此输入链接url"
 
 #: r2/templates/createsubreddit.html:277
 msgid "upload sponsorship image"
@@ -3016,7 +3016,7 @@ msgstr ""
 #: r2/templates/createsubreddit.html:309 r2/templates/flairpane.html:64
 #: r2/templates/prefoptions.html:321 r2/templates/promotelinkform.html:395
 msgid "save options"
-msgstr ""
+msgstr "保存选项"
 
 #: r2/templates/dart_ad.html:67 r2/templates/housead.html:32
 msgid "reddit this ad"
@@ -3024,7 +3024,7 @@ msgstr ""
 
 #: r2/templates/feedback.html:46 r2/templates/sharelink.html:33
 msgid "your name"
-msgstr ""
+msgstr "您的名称"
 
 #: r2/templates/feedback.html:53
 msgid "(only used to reply)"
@@ -3037,7 +3037,7 @@ msgstr ""
 
 #: r2/templates/feedback.html:70 r2/templates/messagecompose.html:145
 msgid "send"
-msgstr ""
+msgstr "发送"
 
 #: r2/templates/feedbackblurb.html:69
 msgid "send reddit feedback"
@@ -3072,17 +3072,17 @@ msgstr ""
 #: r2/templates/printablebuttons.html:179
 #: r2/templates/subredditstylesheet.html:78
 msgid "save"
-msgstr ""
+msgstr "保存"
 
 #: r2/templates/flairnextlink.html:25 r2/templates/listing.html:40
 #: r2/templates/tablelisting.html:52
 msgid "prev"
-msgstr ""
+msgstr "上一页"
 
 #: r2/templates/flairnextlink.html:25 r2/templates/listing.html:46
 #: r2/templates/promotelinkform.html:398 r2/templates/tablelisting.html:58
 msgid "next"
-msgstr ""
+msgstr "下一页"
 
 #: r2/templates/flairpane.html:25
 msgid "flair settings"
@@ -3106,7 +3106,7 @@ msgstr ""
 
 #: r2/templates/flairpane.html:55
 msgid "left"
-msgstr ""
+msgstr "左"
 
 #: r2/templates/flairpane.html:56
 msgid "position flair to the left of the username"
@@ -3114,7 +3114,7 @@ msgstr ""
 
 #: r2/templates/flairpane.html:58
 msgid "right"
-msgstr ""
+msgstr "右"
 
 #: r2/templates/flairpane.html:59
 msgid "position flair to the right of the username"
@@ -3134,7 +3134,7 @@ msgstr ""
 
 #: r2/templates/flairtemplatelist.html:34
 msgid "user can edit?"
-msgstr ""
+msgstr "用户可以编辑？"
 
 #: r2/templates/flairtemplatelist.html:49
 msgid "clear all flair templates"
@@ -3142,15 +3142,15 @@ msgstr ""
 
 #: r2/templates/frametoolbar.html:66
 msgid "show url"
-msgstr ""
+msgstr "显示url"
 
 #: r2/templates/frametoolbar.html:69
 msgid "hide url"
-msgstr ""
+msgstr "隐藏url"
 
 #: r2/templates/frametoolbar.html:73
 msgid "load a random link"
-msgstr ""
+msgstr "加载一个随机链接"
 
 #: r2/templates/frametoolbar.html:80
 msgid "serendipity"
@@ -3158,15 +3158,15 @@ msgstr ""
 
 #: r2/templates/frametoolbar.html:88
 msgid "visit your userpage"
-msgstr ""
+msgstr "查看您的用户页"
 
 #: r2/templates/frametoolbar.html:92
 msgid "login / register"
-msgstr ""
+msgstr "登录 / 注册"
 
 #: r2/templates/frametoolbar.html:100
 msgid "new mail"
-msgstr ""
+msgstr "新邮件"
 
 #: r2/templates/frametoolbar.html:113 r2/templates/frametoolbar.html:114
 msgid "visit this link without the toolbar"
@@ -3178,7 +3178,7 @@ msgstr ""
 
 #: r2/templates/frametoolbar.html:133
 msgid "click to submit this link to reddit"
-msgstr ""
+msgstr "点击提交这个链接到Reddit"
 
 #: r2/templates/frametoolbar.html:171
 #, python-format
@@ -3187,7 +3187,7 @@ msgstr ""
 
 #: r2/templates/frametoolbar.html:186
 msgid "like"
-msgstr ""
+msgstr "喜欢"
 
 #: r2/templates/frametoolbar.html:187
 msgid "dislike"
@@ -3195,24 +3195,24 @@ msgstr ""
 
 #: r2/templates/frametoolbar.html:195 r2/templates/printablebuttons.html:176
 msgid "unsave"
-msgstr ""
+msgstr "不保存"
 
 #: r2/templates/frametoolbar.html:196 r2/templates/printablebuttons.html:177
 msgid "unsaved"
-msgstr ""
+msgstr "未保存的"
 
 #: r2/templates/frametoolbar.html:205 r2/templates/printablebuttons.html:184
 msgid "unhide"
-msgstr ""
+msgstr "不隐藏"
 
 #: r2/templates/frametoolbar.html:206 r2/templates/printablebuttons.html:185
 msgid "unhidden"
-msgstr ""
+msgstr "未隐藏的"
 
 #: r2/templates/frametoolbar.html:209 r2/templates/frametoolbar.html:210
 #: r2/templates/printablebuttons.html:187
 msgid "hide"
-msgstr ""
+msgstr "隐藏"
 
 #: r2/templates/frametoolbar.html:217
 msgid "toggle the comments panel"
@@ -3244,7 +3244,7 @@ msgstr ""
 
 #: r2/templates/gold.html:106 r2/templates/subreddit.html:65
 msgid "subscribe"
-msgstr ""
+msgstr "订阅"
 
 #: r2/templates/gold.html:112
 msgid "How many months?"
@@ -3252,7 +3252,7 @@ msgstr ""
 
 #: r2/templates/gold.html:114 r2/templates/gold.html:175
 msgid "buy"
-msgstr ""
+msgstr "购买"
 
 #: r2/templates/gold.html:120
 msgid "How much gold do you wish to bestow?"
@@ -4479,7 +4479,7 @@ msgstr ""
 #: r2/templates/redditheader.html:71
 #, python-format
 msgid "want to join? %(login_or_register)s in seconds"
-msgstr ""
+msgstr "想加入？%(login_or_register)仅需几秒"
 
 #: r2/templates/redditheader.html:109
 msgid "mod messages"
@@ -4664,7 +4664,7 @@ msgstr ""
 
 #: r2/templates/subreddit.html:65
 msgid "unsubscribe"
-msgstr ""
+msgstr "取消订阅"
 
 #: r2/templates/subreddit.html:86 r2/templates/subreddit.html:87
 msgid "not approved"
@@ -4773,7 +4773,7 @@ msgstr ""
 
 #: r2/templates/thanks.html:34
 msgid "thanks for subscribing!"
-msgstr ""
+msgstr "感谢订阅！"
 
 #: r2/templates/thanks.html:39
 msgid "enter your confirmation code below to claim your gift creddits"
@@ -4864,7 +4864,7 @@ msgstr ""
 
 #: r2/templates/usertableitem.html:61
 msgid "can't remove"
-msgstr ""
+msgstr "不能删除"
 
 #: r2/templates/usertext.html:72
 msgid "formatting help"
@@ -5003,7 +5003,7 @@ msgstr ""
 
 #: r2/templates/widgetdemopanel.html:200
 msgid "remove css styling"
-msgstr ""
+msgstr "删除css样式表"
 
 #: r2/templates/widgetdemopanel.html:202
 msgid "(the widget will inherit all styles from the page)"
