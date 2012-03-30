@@ -498,7 +498,7 @@ msgstr "网站帮助"
 
 #: r2/controllers/front.py:308
 msgid "no comments (yet)"
-msgstr ""
+msgstr "暂无评论"
 
 #: r2/controllers/front.py:310
 #, python-format
@@ -1168,7 +1168,7 @@ msgstr ""
 
 #: r2/lib/menus.py:163
 msgid "all promoted links"
-msgstr ""
+msgstr "所有提升链接"
 
 #: r2/lib/menus.py:164
 msgid "unseen"
@@ -2896,11 +2896,11 @@ msgstr "任何人都可以查看和提交"
 
 #: r2/templates/createsubreddit.html:107
 msgid "restricted"
-msgstr ""
+msgstr "受限的"
 
 #: r2/templates/createsubreddit.html:108
 msgid "anyone can view, but only some are approved to submit links"
-msgstr ""
+msgstr "任何人都可以查看，不过只允许部分授权用户提交链接"
 
 #: r2/templates/createsubreddit.html:110 r2/templates/subreddit.html:94
 msgid "private"
@@ -2908,7 +2908,7 @@ msgstr "私密的"
 
 #: r2/templates/createsubreddit.html:111
 msgid "only approved members can view and submit"
-msgstr ""
+msgstr "仅授权的用户可以查看和提交链接"
 
 #: r2/templates/createsubreddit.html:116
 msgid "archived"
@@ -2916,7 +2916,7 @@ msgstr "归档的"
 
 #: r2/templates/createsubreddit.html:117
 msgid "anyone can view, but submissions are no longer accepted"
-msgstr ""
+msgstr "任何人都可以查看，但是不再接受提交新内容"
 
 #: r2/templates/createsubreddit.html:124 r2/templates/prefoptions.html:243
 msgid "content options"
@@ -2936,7 +2936,7 @@ msgstr "仅链接"
 
 #: r2/templates/createsubreddit.html:131
 msgid "only links to external sites are allowed"
-msgstr ""
+msgstr "仅允许外部网站的链接"
 
 #: r2/templates/createsubreddit.html:133
 msgid "text posts only"
@@ -3470,11 +3470,11 @@ msgstr ""
 
 #: r2/templates/message.html:98
 msgid "expand all"
-msgstr ""
+msgstr "全部展开"
 
 #: r2/templates/message.html:101
 msgid "collapse all"
-msgstr ""
+msgstr "全部收起"
 
 #: r2/templates/message.html:116
 msgid "show parent"
@@ -4479,7 +4479,7 @@ msgstr ""
 #: r2/templates/redditheader.html:71
 #, python-format
 msgid "want to join? %(login_or_register)s in seconds"
-msgstr "想加入？%(login_or_register)仅需几秒"
+msgstr "想加入？ %(login_or_register)s 仅需几秒"
 
 #: r2/templates/redditheader.html:109
 msgid "mod messages"
@@ -4898,7 +4898,7 @@ msgstr ""
 
 #: r2/templates/utils.html:221
 msgid "all languages"
-msgstr ""
+msgstr "全部语言"
 
 #: r2/templates/utils.html:225
 msgid "some languages"
@@ -4938,7 +4938,7 @@ msgstr ""
 
 #: r2/templates/widgetdemopanel.html:125
 msgid "all-time"
-msgstr ""
+msgstr "全部时间"
 
 #: r2/templates/widgetdemopanel.html:131
 msgid "submitted by"
